@@ -9,7 +9,7 @@ The model was trained using the New Plant Disease Dataset(available on Kaggle), 
 This dataset contains 3 folders:
 1. Train
 2. Valid
-3. Test
+3. Test  
 There are 38 different classes present in this dataset.
 
 ## Note
@@ -29,4 +29,4 @@ For eaxmple: User enters an image of a person and the model may say it's healthy
 <img width="1912" height="898" alt="Screenshot 2026-08-24 064656" src="https://github.com/user-attachments/assets/5e76cca1-771d-4f67-97b5-7c60b898b24b" />
 <img width="1911" height="878" alt="Screenshot 2026-08-24 064715" src="https://github.com/user-attachments/assets/7b43287e-ab79-4931-8f23-e4406fd10365" />
 
-Try here: https://plant-disease-detection-by-nishant-devlal.streamlit.app/
+Try yourself at https://plant-disease-detection-by-nishant-devlal.streamlit.app/
