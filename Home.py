@@ -21,10 +21,7 @@ st.write(
     """
 )
 
-st.image(
-    "assets/home_page.jpg",
-    use_container_width=True
-)
+st.image("assets/home_page.jpg", width=600)
 
 st.markdown("### 🚀 Get Started")
 
