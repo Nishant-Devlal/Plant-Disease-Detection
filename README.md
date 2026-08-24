@@ -9,13 +9,18 @@ The model was trained using the New Plant Disease Dataset(available on Kaggle), 
 This dataset contains 3 folders:
 1. Train
 2. Valid
-3. Test  
+3. Test
+
 There are 38 different classes present in this dataset.
 
 ## Note
 This model is trained on the dataset mentioned above so if user uploads any image which is not a leaf or
 does not belongs to a class present in the dataset, it will give random output.  
 For eaxmple: User enters an image of a person and the model may say it's healthy corn leaf or something like that.
+
+## Model Evaluation
+Training Accuracy achieved: 96.06%  
+Validation Accuracy achieved: 91.07%
 
 # Screenshots
 1.Home Page
