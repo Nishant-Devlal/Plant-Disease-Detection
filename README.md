@@ -17,6 +17,10 @@ This model is trained on the dataset mentioned above so if user uploads any imag
 does not belongs to a class present in the dataset, it will give random output.  
 For eaxmple: User enters an image of a person and the model may say it's healthy corn leaf or something like that.
 
+## Model Evaluation
+Training Accuracy achieved: 96.06%  
+Validation Accuracy achieved: 91.07%
+
 # Screenshots
 1.Home Page
 <img width="1907" height="888" alt="Screenshot 2026-08-24 064516" src="https://github.com/user-attachments/assets/21a57102-564c-4515-b381-9d77dfe69c01" />
