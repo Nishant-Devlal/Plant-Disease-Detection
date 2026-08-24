@@ -21,7 +21,7 @@ st.write(
     """
 )
 
-st.image("assets/home_page.jpg", width=600)
+st.image("assets/home_page.jpg", width=700)
 
 st.markdown("### 🚀 Get Started")
 
