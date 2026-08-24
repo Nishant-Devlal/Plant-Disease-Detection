@@ -1,3 +1,4 @@
+import os
 import tensorflow as tf
 import numpy as np
 import streamlit as st
@@ -5,7 +6,11 @@ import streamlit as st
 
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("trained_model.h5")
+    model_path = os.path.join(
+        os.path.dirname(os.path.dirname(__file__)),
+        "trained_model.h5"
+    )
+    return tf.keras.models.load_model(model_path)
 
 
 def model_prediction(test_image):
