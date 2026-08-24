@@ -9,7 +9,8 @@ The model was trained using the New Plant Disease Dataset(available on Kaggle), 
 This dataset contains 3 folders:
 1. Train
 2. Valid
-3. Test  
+3. Test
+
 There are 38 different classes present in this dataset.
 
 ## Note
