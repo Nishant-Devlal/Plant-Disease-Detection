@@ -7,7 +7,6 @@ import streamlit as st
 def load_model():
     return tf.keras.models.load_model("trained_model.h5")
 
-
 def model_prediction(test_image):
 
     model = load_model()

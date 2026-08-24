@@ -203,7 +203,7 @@ if test_image is not None:
         st.image(
             test_image,
             caption="Uploaded Leaf Image",
-            use_container_width=True
+            width=500
         )
 
     if st.button(
