@@ -209,7 +209,7 @@ if test_image is not None:
     if st.button(
         "🔍 Analyze Leaf",
         type="primary",
-        use_container_width=True
+        width=200
     ):
 
         with st.spinner("Analyzing the leaf image..."):
